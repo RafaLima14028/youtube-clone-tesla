@@ -1,10 +1,7 @@
 <h1 align="center">
   <img src="https://s3-symbol-logo.tradingview.com/tesla--600.png" width="200px" alt="Tesla" />
+  Clone da Tesla
 </h1>
-
-<h2 align="center">
-  Clone do site Tesla
-</h2>
 
 ## 🔥 Instalação e execução
 
