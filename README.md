@@ -1,5 +1,8 @@
 <h1 align="center">
   <img src="https://s3-symbol-logo.tradingview.com/tesla--600.png" width="200px" alt="Tesla" />
+</h1>
+
+<h1>
   Clone da Tesla
 </h1>
 
