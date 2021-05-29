@@ -1,15 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import { Container, Heading, Buttons } from './styles';
+import { Container, Heading, Buttons } from "./styles";
 
 interface Props {
-  label: string
-  description: string
+  label: string;
+  description: string;
 }
 
-const DefaulOverlayContent: React.FC<Props> = ({
-  label, description
-}) => {
+const DefaulOverlayContent: React.FC<Props> = ({ label, description }) => {
   return (
     <Container>
       <Heading>

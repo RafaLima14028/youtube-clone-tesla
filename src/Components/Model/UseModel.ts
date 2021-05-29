@@ -1,21 +1,22 @@
-import ModelsContext from './ModelsContext'
-import React, { useCallback, useEffect } from 'react'
+import ModelsContext from "./ModelsContext";
+import React, { useCallback, useEffect } from "react";
 
 export default function useModel(modelName: string) {
-    const { registerModel, unregisterModel, getModelByName } = React.useContext(ModelsContext)
+  const { registerModel, unregisterModel, getModelByName } =
+    React.useContext(ModelsContext);
 
-    useEffect(() => () => unregisterModel(modelName), [
-        modelName,
-        unregisterModel
-    ])
+  useEffect(
+    () => () => unregisterModel(modelName),
+    [modelName, unregisterModel]
+  );
 
-    const getModel = useCallback(() => getModelByName(modelName), [
-        getModelByName,
-        modelName
-    ])
+  const getModel = useCallback(
+    () => getModelByName(modelName),
+    [getModelByName, modelName]
+  );
 
-    return { 
-        registerModel, 
-        getModel 
-    }
+  return {
+    registerModel,
+    getModel,
+  };
 }
