@@ -1,5 +1,6 @@
-import ModelsContext from "./ModelsContext";
 import React, { useCallback, useEffect } from "react";
+
+import ModelsContext from "./ModelsContext";
 
 export default function useModel(modelName: string) {
   const { registerModel, unregisterModel, getModelByName } =

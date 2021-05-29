@@ -1,5 +1,6 @@
-import { useTransform } from "framer-motion";
 import React, { useCallback, useLayoutEffect, useState } from "react";
+import { useTransform } from "framer-motion";
+
 import { CarModel } from "../ModelsContext";
 import useWrapperScroll from "../useWrapperScroll";
 import { Container } from "./styles";

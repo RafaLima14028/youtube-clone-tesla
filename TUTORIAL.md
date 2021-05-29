@@ -1,3 +1,5 @@
+// src/components/Page/styles.ts
+
 .colored:nth-child(1) {
 background: #f1ffe7;
 }
