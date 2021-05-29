@@ -56,6 +56,7 @@ npm start
 - [x] Animação de Overlay
 - [x] Pointer Events Issue
 - [x] Header & Footer
+- [x] Atualização no Header
 
 ## ✋🏻 Pré-requisitos
 
