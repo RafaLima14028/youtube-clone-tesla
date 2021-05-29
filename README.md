@@ -57,6 +57,7 @@ npm start
 - [x] Pointer Events Issue
 - [x] Header & Footer
 - [x] Atualização no Header
+- [x] Atualização no Footer
 
 ## ✋🏻 Pré-requisitos
 
