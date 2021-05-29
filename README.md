@@ -1,26 +1,26 @@
 <h1 align="center">
-  <img alt="Tesla" src="https://www.google.com/search?q=tesla&client=firefox-b-d&sa=X&bih=643&biw=1366&hl=pt-BR&sxsrf=ALeKk02CNc7RNExMTuupQnzMGN5cM1p3Hg:1622288737198&tbm=isch&source=iu&ictx=1&fir=G6CN8wNkBxqTLM%252C15927w0j2Nl1iM%252C%252Fm%252F0dr90d&vet=1&usg=AI4_-kQ5abHh4WRcsYqOzLUGoHD_li-Ytg&ved=2ahUKEwjq-py_6O7wAhVbH7kGHceLBOAQ_B16BAhKEAI#imgrc=G6CN8wNkBxqTLM" width="120px" />
+  <img src="https://s3-symbol-logo.tradingview.com/tesla--600.png" width="120px" alt="Tesla" />
 </h1>
 
-<h3 align="center">
+<h2 align="center">
   Clone do site Tesla
-</h3>
+</h2>
 
 ## 🔥 Instalação e execução
 
-1. Clone esse repositório;
+1. Clone esse repositório:
 
 ```
 git clone https://github.com/RafaLima14028/youtube-clone-tesla.git
 ```
 
-2. Entre na pasta;
+2. Entre na pasta:
 
 ```
 cd youtube-clone-tesla
 ```
 
-3. Execute;
+3. Execute:
 
 ```
 yarn
@@ -32,7 +32,7 @@ ou
 npm install
 ```
 
-4. Rodar o projeto;
+4. Rodar o projeto:
 
 ```
 yarn start
@@ -76,8 +76,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Framer Motion](https://www.framer.com/motion/)
 
 ## Autor
-
----
 
 <a href="https://avatars.githubusercontent.com/u/39380897?v=4">
  <img 
